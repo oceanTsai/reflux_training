@@ -1,0 +1,54 @@
+.dialog {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  font-size: 12px; }
+  .dialog.show {
+    visibility: visible; }
+  .dialog .dialog-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #FFFFFF; }
+    .dialog .dialog-container .header {
+      display: block;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      text-align: center;
+      box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.2);
+      user-select: none; }
+      .dialog .dialog-container .header .title {
+        font-size: 1.6em; }
+      .dialog .dialog-container .header .close-button {
+        position: absolute;
+        font-size: 1.6em;
+        right: 10px; }
+    .dialog .dialog-container .body {
+      min-height: 80px;
+      padding: 10px 10px;
+      font-size: 1.5em; }
+    .dialog .dialog-container .footer {
+      user-select: none; }
+      .dialog .dialog-container .footer .button {
+        border: none;
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.6em;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: inline-block;
+        cursor: pointer; }
+      .dialog .dialog-container .footer .cancel.button {
+        background: #da1725;
+        width: 100%; }
+        .dialog .dialog-container .footer .cancel.button.half {
+          width: 50%; }
+      .dialog .dialog-container .footer .ok.button {
+        background: #21ba45;
+        width: 100%; }
+        .dialog .dialog-container .footer .ok.button.half {
+          width: 50%; }

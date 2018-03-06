@@ -1,0 +1,75 @@
+{
+  "name": "reflux_training",
+  "version": "1.0.0",
+  "description": "react reflux教育訓練",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app-service/service.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oceanTsai/reflux_training.git"
+  },
+  "keywords": [
+    "react",
+    "reflux",
+    "demo"
+  ],
+  "author": "oceanTsai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oceanTsai/reflux_training/issues"
+  },
+  "homepage": "https://github.com/oceanTsai/reflux_training#readme",
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0",
+      "react"
+    ]
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "env",
+            "stage-0",
+            "react"
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "axios": "0.17.1",
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "babelify": "8.0.0",
+    "browser-sync": "2.18.13",
+    "browserify": "14.5.0",
+    "browserify-css": "0.14.0",
+    "express": "4.16.2",
+    "glob": "7.1.2",
+    "gulp": "3.9.1",
+    "gulp-babel": "7.0.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-uglify": "3.0.0",
+    "moment": "2.19.2",
+    "vinyl-buffer": "1.0.0",
+    "vinyl-source-stream": "1.1.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "6.26.0",
+    "classnames": "2.2.5",
+    "material-ui": "0.19.4",
+    "react": "16.1.1",
+    "react-dom": "16.1.1",
+    "reflux": "0.2.1"
+  }
+}

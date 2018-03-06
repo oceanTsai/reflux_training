@@ -1,0 +1,16 @@
+.general-button {
+    display: inline-block;
+    min-height: 20px;
+    min-width: 60px;
+    background-color: #e0e1e2;
+    color: rgba(0,0,0,.6);
+    text-shadow: none;
+    background-image: none;
+    text-align: center;
+    padding: 3px;
+    cursor: pointer;
+    &.active{
+        background: #2185d0;
+        color: #ffffff;
+    }
+}
